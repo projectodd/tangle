@@ -1,0 +1,8 @@
+repositories:
+  torquebox:
+    master:     http://torquebox.ci.cloudbees.com/job/torquebox.org-staging/build
+
+  torquebox.org:
+    master:     http://torquebox.ci.cloudbees.com/job/torquebox.org-staging/build
+    production: http://torquebox.ci.cloudbees.com/job/torquebox.org-production/build
+
