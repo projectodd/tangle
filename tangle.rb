@@ -11,8 +11,16 @@ require 'pp'
 class Tangle < Sinatra::Base 
   
   register Sinatra::Reloader
+  get '/' do
+    "TorqueBox says 'hi'."
+  end
 
   post '/' do
+    if ( params[:token] != ENV['TANGLE_TOKEN'] )
+      $stderr.puts "Invalid token: #{params[:token]}"
+      return 404
+    end
+
     payload = JSON params[:payload] 
     #pp payload
     repo = payload['repository']['name']
@@ -42,7 +50,7 @@ class Tangle < Sinatra::Base
     uri = URI.parse(trigger_url + '?token=' + token )
     $stderr.puts "Dispatch #{uri}"
     result = Net::HTTP.post_form( uri, params )
-    $stderr.puts result.body
+    #$stderr.puts result.body
   end
 
 end
