@@ -3,7 +3,7 @@ require "sinatra/base"
 require "sinatra/reloader"
 require "net/http"
 
-require 'json'
+require 'json/pure'
 
 require 'pp'
 
@@ -37,20 +37,18 @@ class Tangle < Sinatra::Base
       branch_config = repo_config[branch_name]
       if ( branch_config ) 
         [ branch_config ].flatten.each do |trigger_url|
-          dispatch_trigger( trigger_url, params )
+          dispatch_trigger( trigger_url )
         end
       end
     end
   end
 
-  def dispatch_trigger(trigger_url, params)
+  def dispatch_trigger(trigger_url)
 
     token = ENV['CLOUDBEES_TOKEN']
 
-    uri = URI.parse(trigger_url + '?token=' + token )
-    $stderr.puts "Dispatch #{uri}"
-    result = Net::HTTP.post_form( uri, params )
-    #$stderr.puts result.body
+    $stderr.puts "Dispatch #{trigger_url}"
+    $stderr.puts `curl #{trigger_url}?token=#{token} --insecure --silent`
   end
 
 end
