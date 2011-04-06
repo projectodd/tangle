@@ -3,6 +3,6 @@ repositories:
     master:     https://torquebox.ci.cloudbees.com/job/torquebox/build
 
   torquebox.org:
-    master:     https://torquebox.ci.cloudbees.com/job/torquebox.org-staging/build
-    production: https://torquebox.ci.cloudbees.com/job/torquebox.org-production/build
+    master:     https://torquebox.ci.cloudbees.com/job/torquebox.org-staging/buildWithParameters?update_awestruct=false
+    production: https://torquebox.ci.cloudbees.com/job/torquebox.org-production/buildWithParameters?update_awestruct=false
 

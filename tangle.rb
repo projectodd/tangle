@@ -47,8 +47,18 @@ class Tangle < Sinatra::Base
 
     token = ENV['CLOUDBEES_TOKEN']
 
-    $stderr.puts "Dispatch #{trigger_url}"
-    $stderr.puts `curl #{trigger_url}?token=#{token} --insecure --silent`
+    token_part = ""
+
+    if ( trigger_url =~ /\?/ ) 
+      token_part = "&token=#{token}"
+    else
+      token_part = "?token=#{token}"
+    end
+
+    full_url = "#{trigger_url}#{token_part}"
+    $stderr.puts "Dispatch #{full_url}"
+    `curl -X POST '#{full_url}' --insecure --silent`
+    $stderr.puts "Dispatch complete #{$?}"
   end
 
 end
