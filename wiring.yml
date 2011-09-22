@@ -12,3 +12,4 @@ repositories:
 
   jruby-maven-plugins:
     master:     https://torquebox.ci.cloudbees.com/job/jruby-maven-plugins/build
+
