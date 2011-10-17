@@ -1,6 +1,6 @@
 repositories:
   torquebox:
-    master:     https://torquebox.ci.cloudbees.com/job/torquebox/build
+    1x-dev:     https://torquebox.ci.cloudbees.com/job/torquebox/build
     2x-dev:     https://torquebox.ci.cloudbees.com/job/torquebox-2x-incremental/build
 
   torquebox.org:
