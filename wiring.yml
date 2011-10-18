@@ -13,6 +13,6 @@ repositories:
   jruby-maven-plugins:
     master:     https://torquebox.ci.cloudbees.com/job/jruby-maven-plugins/build
 
-  fnbox:
-    master:     https://torquebox.ci.cloudbees.com/job/fnbox/build
+  immutant:
+    master:     https://torquebox.ci.cloudbees.com/job/immutant/build
 
