@@ -1,22 +1,22 @@
 repositories:
   torquebox:
-    1x-dev:     https://torquebox.ci.cloudbees.com/job/torquebox/build
-    2x-dev:     https://torquebox.ci.cloudbees.com/job/torquebox-2x-incremental/build
+    1x-dev:     https://projectodd.ci.cloudbees.com/job/torquebox/build
+    2x-dev:     https://projectodd.ci.cloudbees.com/job/torquebox-2x-incremental/build
 
   torquebox.org:
-    master:     https://torquebox.ci.cloudbees.com/job/torquebox.org-staging/buildWithParameters?update_awestruct=false
-    production: https://torquebox.ci.cloudbees.com/job/torquebox.org-production/buildWithParameters?update_awestruct=false
+    master:     https://projectodd.ci.cloudbees.com/job/torquebox.org-staging/buildWithParameters?update_awestruct=false
+    production: https://projectodd.ci.cloudbees.com/job/torquebox.org-production/buildWithParameters?update_awestruct=false
 
   immutant.org:
-    master:     https://torquebox.ci.cloudbees.com/job/immutant.org-staging/buildWithParameters?update_awestruct=false
-    production: https://torquebox.ci.cloudbees.com/job/immutant.org-production/buildWithParameters?update_awestruct=false
+    master:     https://projectodd.ci.cloudbees.com/job/immutant.org-staging/buildWithParameters?update_awestruct=false
+    production: https://projectodd.ci.cloudbees.com/job/immutant.org-production/buildWithParameters?update_awestruct=false
 
   jboss-polyglot:
-    master:     https://torquebox.ci.cloudbees.com/job/polyglot/build
+    master:     https://projectodd.ci.cloudbees.com/job/polyglot/build
 
   jruby-maven-plugins:
-    master:     https://torquebox.ci.cloudbees.com/job/jruby-maven-plugins/build
+    master:     https://projectodd.ci.cloudbees.com/job/jruby-maven-plugins/build
 
   immutant:
-    master:     https://torquebox.ci.cloudbees.com/job/immutant/build
+    master:     https://projectodd.ci.cloudbees.com/job/immutant/build
 
