@@ -18,5 +18,5 @@ repositories:
     master:     https://projectodd.ci.cloudbees.com/job/jruby-maven-plugins/build
 
   immutant:
-    master:     https://projectodd.ci.cloudbees.com/job/immutant/build
+    master:     https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
 
