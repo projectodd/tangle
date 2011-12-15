@@ -20,3 +20,6 @@ repositories:
   immutant:
     master:     https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
 
+  overlay:
+    master:     https://projectodd.ci.cloudbees.com/job/overlay/build
+
