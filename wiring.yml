@@ -20,6 +20,9 @@ repositories:
   yaml-schema:
     master:     https://projectodd.ci.cloudbees.com/job/yaml-schema/build
 
+  stilts:
+    master:     https://projectodd.ci.cloudbees.com/job/stilts/build
+
   immutant:
     master:     https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
 
