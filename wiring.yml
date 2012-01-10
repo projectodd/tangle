@@ -17,6 +17,9 @@ repositories:
   jruby-maven-plugins:
     master:     https://projectodd.ci.cloudbees.com/job/jruby-maven-plugins/build
 
+  yaml-schema:
+    master:     https://projectodd.ci.cloudbees.com/job/yaml-schema/build
+
   immutant:
     master:     https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
 
