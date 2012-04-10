@@ -29,3 +29,7 @@ repositories:
   overlay:
     master:     https://projectodd.ci.cloudbees.com/job/overlay/build
 
+  awestruct.org:
+    master:     https://projectodd.ci.cloudbees.com/job/awestruct.org-staging/buildWithParameters?update_awestruct=false
+    production: https://projectodd.ci.cloudbees.com/job/awestruct.org-production/buildWithParameters?update_awestruct=false
+
