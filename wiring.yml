@@ -2,6 +2,7 @@ repositories:
   torquebox:
     1x-dev:     https://projectodd.ci.cloudbees.com/job/torquebox/build
     2x-dev:     https://projectodd.ci.cloudbees.com/job/torquebox-2x-incremental/build
+    2.0.x-dev:  https://projectodd.ci.cloudbees.com/job/torquebox-2.0.x-incremental/build
 
   torquebox.org:
     master:     https://projectodd.ci.cloudbees.com/job/torquebox.org-staging/buildWithParameters?update_awestruct=false
