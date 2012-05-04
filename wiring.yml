@@ -5,7 +5,7 @@ repositories:
     2.0.x-dev:  https://projectodd.ci.cloudbees.com/job/torquebox-2.0.x-incremental/build
 
   torquebox.org:
-    master:     https://projectodd.ci.cloudbees.com/job/torquebox.org-staging/buildWithParameters?update_awestruct=false
+    master:     https://projectodd.ci.cloudbees.com/job/torquebox.org-staging/build
     production: https://projectodd.ci.cloudbees.com/job/torquebox.org-production/buildWithParameters?update_awestruct=false
 
   immutant.org:
