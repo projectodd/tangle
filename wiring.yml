@@ -34,6 +34,9 @@ repositories:
     master:     https://projectodd.ci.cloudbees.com/job/awestruct.org-staging/build
     production: https://projectodd.ci.cloudbees.com/job/awestruct.org-production/build
 
+  protoj:
+    master:     https://projectodd.ci.cloudbees.com/job/protoj-incremental/build
+
   jitescript:
     master:     https://projectodd.ci.cloudbees.com/job/jitescript-incremental/build
 
