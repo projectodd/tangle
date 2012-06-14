@@ -31,8 +31,8 @@ repositories:
     master:     https://projectodd.ci.cloudbees.com/job/overlay/build
 
   awestruct.org:
-    master:     https://projectodd.ci.cloudbees.com/job/awestruct.org-staging/build
-    production: https://projectodd.ci.cloudbees.com/job/awestruct.org-production/build
+    master:     https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=staging
+    production: https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=production
 
   protoj:
     master:     https://projectodd.ci.cloudbees.com/job/protoj-incremental/build
