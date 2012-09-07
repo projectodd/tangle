@@ -9,8 +9,8 @@ repositories:
     production: https://projectodd.ci.cloudbees.com/job/torquebox.org-production/build
 
   immutant.org:
-    master:     https://projectodd.ci.cloudbees.com/job/immutant.org-staging/buildWithParameters?update_awestruct=false
-    production: https://projectodd.ci.cloudbees.com/job/immutant.org-production/buildWithParameters?update_awestruct=false
+    master:     https://projectodd.ci.cloudbees.com/job/immutant.org-staging/build
+    production: https://projectodd.ci.cloudbees.com/job/immutant.org-production/build
 
   jboss-polyglot:
     master:     https://projectodd.ci.cloudbees.com/job/polyglot/build
