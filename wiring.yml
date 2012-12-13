@@ -12,6 +12,14 @@ repositories:
     master:     https://projectodd.ci.cloudbees.com/job/immutant.org-staging/build
     production: https://projectodd.ci.cloudbees.com/job/immutant.org-production/build
 
+  projectodd.org:
+    master:     https://projectodd.ci.cloudbees.com/job/projectodd.org-staging/build
+    production: https://projectodd.ci.cloudbees.com/job/projectodd.org-production/build
+
+  awestruct.org:
+    master:     https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=staging
+    production: https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=production
+
   jboss-polyglot:
     master:     https://projectodd.ci.cloudbees.com/job/polyglot/build
 
@@ -29,10 +37,6 @@ repositories:
 
   overlay:
     master:     https://projectodd.ci.cloudbees.com/job/overlay/build
-
-  awestruct.org:
-    master:     https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=staging
-    production: https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=production
 
   protoj:
     master:     https://projectodd.ci.cloudbees.com/job/protoj-incremental/build
