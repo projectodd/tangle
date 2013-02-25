@@ -21,7 +21,7 @@ repositories:
     production: https://projectodd.ci.cloudbees.com/job/awestruct.org/buildWithParameters?profile=production
 
   jboss-polyglot:
-    master:     https://projectodd.ci.cloudbees.com/job/polyglot/build
+    master:     https://projectodd.ci.cloudbees.com/job/polyglot-incremental/build
 
   jruby-maven-plugins:
     master:     https://projectodd.ci.cloudbees.com/job/jruby-maven-plugins/build
