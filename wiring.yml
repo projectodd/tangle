@@ -47,7 +47,9 @@ repositories:
   dynjs:
     master:     https://projectodd.ci.cloudbees.com/job/dynjs-incremental/build
 
-  dynjs-vertx-module:
-    master:     https://projectodd.ci.cloudbees.com/job/dynjs-vertx-module/build
+  lang-dynjs:
+    master:     https://projectodd.ci.cloudbees.com/job/mod-lang-dynjs/build
 
+  lang-js:
+    master:     https://projectodd.ci.cloudbees.com/job/lang-js/build
 
