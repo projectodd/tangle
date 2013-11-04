@@ -53,3 +53,6 @@ repositories:
   lang-js:
     master:     https://projectodd.ci.cloudbees.com/job/lang-js/build
 
+  dynjs.org:
+    master:     https://projectodd.ci.cloudbees.com/job/dynjs.org-staging/build
+    production: https://projectodd.ci.cloudbees.com/job/dynjs.org-production/build
