@@ -60,3 +60,6 @@ repositories:
   liveoak.io:
     master:     https://projectodd.ci.cloudbees.com/job/liveoak.io-staging/build
     production: https://projectodd.ci.cloudbees.com/job/liveoak.io-production/build
+    
+  liveoak:
+    master:     https://projectodd.ci.cloudbees.com/job/liveoak/build
