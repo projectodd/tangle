@@ -34,7 +34,8 @@ repositories:
 
   immutant:
     master:     https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
-
+    thedeuce:   https://projectodd.ci.cloudbees.com/job/immutant2-incremental/build
+    
   overlay:
     master:     https://projectodd.ci.cloudbees.com/job/overlay/build
 
@@ -63,3 +64,6 @@ repositories:
     
   liveoak:
     master:     https://projectodd.ci.cloudbees.com/job/liveoak/build
+
+  wunderboss:
+    master:     https://projectodd.ci.cloudbees.com/job/wunderboss-incremental/build
