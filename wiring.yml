@@ -33,9 +33,9 @@ repositories:
     master:     https://projectodd.ci.cloudbees.com/job/stilts/build
 
   immutant:
-    master:     https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
-    thedeuce:   https://projectodd.ci.cloudbees.com/job/immutant2-incremental/build
-    
+    master:     https://projectodd.ci.cloudbees.com/job/immutant2-incremental/build
+    1.x:        https://projectodd.ci.cloudbees.com/job/immutant-incremental/build
+
   overlay:
     master:     https://projectodd.ci.cloudbees.com/job/overlay/build
 
@@ -57,11 +57,11 @@ repositories:
   dynjs.org:
     master:     https://projectodd.ci.cloudbees.com/job/dynjs.org-staging/build
     production: https://projectodd.ci.cloudbees.com/job/dynjs.org-production/build
-    
+
   liveoak.io:
     master:     https://projectodd.ci.cloudbees.com/job/liveoak.io-staging/build
     production: https://projectodd.ci.cloudbees.com/job/liveoak.io-production/build
-    
+
   liveoak:
     master:     https://projectodd.ci.cloudbees.com/job/liveoak/build
 
