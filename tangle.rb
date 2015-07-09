@@ -1,15 +1,15 @@
-
 require "sinatra/base"
 require "sinatra/reloader"
 require "net/http"
 
 require 'json/pure'
+require 'yaml'
 
 require 'pp'
 
 
-class Tangle < Sinatra::Base 
-  
+class Tangle < Sinatra::Base
+
   register Sinatra::Reloader
   get '/' do
     "TorqueBox says 'hi'."
@@ -21,7 +21,7 @@ class Tangle < Sinatra::Base
       return 404
     end
 
-    payload = JSON params[:payload] 
+    payload = JSON params[:payload]
     #pp payload
     repo = payload['repository']['name']
     ref  = payload['ref']
@@ -33,9 +33,9 @@ class Tangle < Sinatra::Base
     config = YAML.load( File.read( File.dirname( __FILE__ ) + '/wiring.yml' ) )
 
     repo_config = config['repositories'][repo]
-    if ( repo_config ) 
+    if ( repo_config )
       branch_config = repo_config[branch_name]
-      if ( branch_config ) 
+      if ( branch_config )
         [ branch_config ].flatten.each do |trigger_url|
           dispatch_trigger( trigger_url )
         end
@@ -49,7 +49,7 @@ class Tangle < Sinatra::Base
 
     token_part = ""
 
-    if ( trigger_url =~ /\?/ ) 
+    if ( trigger_url =~ /\?/ )
       token_part = "&token=#{token}"
     else
       token_part = "?token=#{token}"
