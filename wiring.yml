@@ -67,3 +67,6 @@ repositories:
 
   wunderboss:
     master:     https://projectodd.ci.cloudbees.com/job/wunderboss-incremental/build
+
+  wildfly-swarm.io:
+    production:     https://projectodd.ci.cloudbees.com/job/wildfly-swarm.io/build
