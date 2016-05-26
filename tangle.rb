@@ -57,7 +57,7 @@ class Tangle < Sinatra::Base
 
     full_url = "#{trigger_url}#{token_part}"
     $stderr.puts "Dispatch #{full_url}"
-    `curl -X POST '#{full_url}' --insecure --silent`
+    `curl '#{full_url}' --insecure --silent`
     $stderr.puts "Dispatch complete #{$?}"
   end
 
